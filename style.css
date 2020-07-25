@@ -1,0 +1,15 @@
+.mystylelist{
+    color: darkblue;
+    line-height: 2em;
+    list-style: none;
+    margin: 3px;
+    font-size: 20px;
+}
+.blu{
+    color: darkblue;
+    font-style: italic;
+}
+#todoitem{
+    border-color:darkblue;
+    border-style: double;
+}

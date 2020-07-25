@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do App</title>
+
+</head>
+<body>
+    <div class="bg container text-center">
+        <h1 class="blu my-3">To Do List</h1>
+        <input type="text" class="my-2" id="todoitem"> <br>
+        <i onclick="add()" class="fa fa-plus-circle fa-3x text-primary m-3"></i>
+        <i onclick="dltall()" class="fa fa-trash fa-3x text-primary m-3"></i>
+    </div>
+
+    <div class="container text-center mt-3">
+        <ul id="list" class="py-3">
+
+        </ul>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
